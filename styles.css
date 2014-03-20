@@ -1,0 +1,88 @@
+.outline {
+    background: #fff;
+    border: 3px solid #333;
+    border-right: 1px dashed #333;
+    font-size: 18px;
+    height: 16em;
+    width: 75em;
+    position: relative;
+    z-index: -1;
+}
+.rink {
+    background: none;
+    border: 0 solid #333;
+    height: 16em;
+    position: absolute;
+}
+.rink.centerline {
+    border: 0 solid #333;
+    border-bottom: 1px solid #333;
+    width: 75em;
+    height: 8em;
+    z-index: 5;
+}
+.rink.hack {
+    border-right: 1px solid #333;
+    width: 12em;
+    z-index: 5;
+}
+.rink.houseback {
+    border-right: 1px solid #333;
+    width: 6em;
+    left: 12em;
+    z-index: 5;
+}
+.rink.freeguardzone {
+    border-right: 3px solid #333;
+    width: 21em;
+    left: 18em;
+    z-index: 5;
+}
+.rink.twelve {
+    background: blue;
+    border: 1px solid #333;
+    height: 12em;
+    width: 12em;
+    left: 12em;
+    top: 2em;
+    border-radius: 6em;
+    -moz-border-radius: 6em;
+    -webkit-border-radius: 6em;
+    z-index: 2;
+}
+.rink.eight {
+    background: white;
+    border: 1px solid #333;
+    height: 8em;
+    width: 8em;
+    left: 14em;
+    top: 4em;
+    border-radius: 4em;
+    -moz-border-radius: 4em;
+    -webkit-border-radius: 4em;
+    z-index: 2;
+}
+.rink.four {
+    background: red;
+    border: 1px solid #333;
+    height: 4em;
+    width: 4em;
+    left: 16em;
+    top: 6em;
+    border-radius: 2em;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    z-index: 2;
+}
+.rink.button {
+    background: white;
+    border: 1px solid #333;
+    height: 2em;
+    width: 2em;
+    left: 17em;
+    top: 7em;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    z-index: 2;
+}
